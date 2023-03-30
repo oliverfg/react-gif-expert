@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { AddCategory, GifGrid } from "./components";
 
-export default function GixExpertApp() {
+export default function GifExpertApp() {
   const [categories, setCategories] = useState(['One Punch']);
 
   const onAddCategory = (value) => {
